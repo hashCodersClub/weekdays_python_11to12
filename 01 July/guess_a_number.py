@@ -3,7 +3,6 @@ computer = random.randint(1, 100) #29
 
 while True:
     guess = int(input("Guess a number between 1 and 100: "))
-    print(computer,guess)
     if guess == computer:
         print("Congratulations! You guessed the correct number.")
         break
@@ -11,3 +10,6 @@ while True:
         print("Too low! Try again.")
     else:
         print("Too high! Try again.")
+
+    
+  
